@@ -1,0 +1,461 @@
+@import url("../fonts/PTsans/stylesheet.css");
+@import url("../fonts/sofia_pro_bold/stylesheet.css");
+@import url("../fonts/sofiapro/stylesheet.css");
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	/*
+	background-image: url(../imgs/back.jpg);
+	*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	display: table;
+}
+
+
+
+
+@media (max-width: 400px) {
+
+	
+	.projects {
+	padding-top: 5%;
+	transform: translate(0, 0);
+	margin: 10px 10px 10px 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 310px; 
+	}
+
+	.projects div {
+	margin: 0px 0px 0px 0px;
+	}
+
+
+	.left {
+	left: 0px;
+	width: 545px;
+	height: 540px;
+	background-image: url(../imgs/left.png);
+	top: 50px;
+	position: absolute;
+}
+
+}	
+
+
+
+.textde {
+	font-size: 1.35rem;
+	font-family: 'sofia_proregular';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: 0.25;
+
+}
+
+.texten {
+	font-size: 1.35rem;
+	font-family: 'sofia_proitalic';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: normal;
+}
+
+.textde h4 {
+	font-size: 1.6rem;
+	font-family: 'sofia_probold';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: 0.25;
+
+}
+
+.texten h4 {
+	font-size: 1.6rem;
+	font-family: 'sofia_probold';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: normal;
+}
+
+@media (min-width: 2000px) {
+
+	.textde {
+	font-size: 2.2rem;
+	font-family: 'sofia_proregular';
+	color: black;
+	display: block;
+	width: 700px;
+	text-align: left;
+	word-spacing: 0.25;
+
+	}
+
+	.texten {
+	font-size: 2.2rem;
+	font-family: 'sofia_proitalic';
+	color: black;
+	display: block;
+	width: 700px;
+	text-align: left;
+	word-spacing: normal;
+	}
+
+	.textde h4 {
+	font-size: 2.5rem;
+	font-family: 'sofia_probold';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: 0.25;
+
+	}
+
+	.texten h4 {
+	font-size: 2.5rem;
+	font-family: 'sofia_probold';
+	color: black;
+	display: block;
+	width: 400px;
+	text-align: left;
+	word-spacing: normal;
+	}
+
+}
+
+
+/*Here is the Drop down hamburger button*/
+.dropbtn {
+    background-image: url(../imgs/logonext.png);
+    background-color: transparent;
+    height: 42px;
+	width: 59px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+ 	outline: none;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+	top: 13px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 0px 20px 0px #727272;
+    z-index: 1;
+    left: -150px;
+    top: 80px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.back {
+	top: 13px;
+	left: 10px;
+	position: absolute;
+
+}
+
+.nxt {
+	top: 95%;
+	right: 10px;
+	position: fixed;
+
+}
+
+.prev {
+	top: 95%;
+	left: 10px;
+	position: fixed;
+
+}
+
+.left {
+	left: 0px;
+	width: 545px;
+	height: 540px;
+	background-image: url(../imgs/left.png);
+	top: 50px;
+	position: absolute;
+}
+
+.left {
+	background-image: url(../imgs/left.png);
+	width: 40%;
+	padding-top: 50%;
+	right: 75%;
+	transform: translate(0%, 0);
+	top: 55px;
+	position: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pic {
+	background-image: url(../imgs/pic.png);
+	width: 500px;
+	height: 500px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+.pric-01 {
+	background-image: url(../imgs/pric-01.jpg);
+	width: 500px;
+	height: 150px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pric-02 {
+	background-image: url(../imgs/pric-02.jpg);
+	width: 500px;
+	height: 500px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pric-03 {
+	background-image: url(../imgs/pric-03.jpg);
+	width: 500px;
+	height: 300px;
+	
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pric-04 {
+	background-image: url(../imgs/pric-04.jpg);
+	width: 500px;
+	height: 300px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pric-05 {
+	background-image: url(../imgs/pric-05.jpg);
+	width: 500px;
+	height: 300px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pric-06 {
+	background-image: url(../imgs/pric-06.jpg);
+	width: 500px;
+	height: 300px;
+	
+
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pric-07 {
+	background-image: url(../imgs/pric-07.jpg);
+	width: 500px;
+	height: 300px;
+	
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pric-08 {
+	background-image: url(../imgs/pric-08.jpg);
+	width: 500px;
+	height: 300px;
+	
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pric-09 {
+	background-image: url(../imgs/pric-09.jpg);
+	width: 500px;
+	height: 300px;
+	
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.projects {
+	padding-top: 5%;
+	right: 30%;
+	transform: translate(50%, 0);
+	margin: 0px 10px 10px 10px;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.projects div {
+	margin: 0px 10px 100px 10px;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+	.left {
+	width: 100%;
+	padding-top: 50%;
+	right: 75%;
+	transform: translate(0%, 0);
+	top: 70px;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	}
+
+	
+
+	.projects {
+	padding-top: 150%;
+	}
+
+	.nxt {
+	top: 95%;
+	right: 10px;
+	position: fixed;
+
+	}
+
+	.prev {
+	top: 95%;
+	left: 10px;
+	position: fixed;
+
+	}
+
+}
+
+
+@media (min-width: 2000px) {
+	.pic {
+	width: 900px;
+	height: 900px;
+	}
+
+
+	.pric-01 {
+	width: 900px;
+	height: 300px;
+	}
+
+	.pric-02 {
+	width: 900px;
+	height: 900px;
+	}
+
+
+	.pric-03 {
+	width: 900px;
+	height: 550px;
+	}
+
+
+	.pric-04 {
+	width: 900px;
+	height: 550px;
+	}
+
+
+	.pric-05 {
+	width: 900px;
+	height: 550px;
+	}
+
+
+	.pric-06 {
+	width: 900px;
+	height: 550px;
+	}
+
+	.pric-07 {
+	width: 900px;
+	height: 550px;
+	
+	}
+
+	.pric-08 {
+	width: 900px;
+	height: 550px;
+	
+	}
+
+	.pric-09 {
+	width: 900px;
+	height: 550px;
+	
+	}
+}
